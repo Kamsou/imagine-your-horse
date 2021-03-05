@@ -1,11 +1,13 @@
-import Layout from '../src/components/layout'
+import Layout from "../src/components/layout"
 
-export default function Home() {
+function Breeds() {
   return (
     <Layout>
       <div class="flex justify-center items-center h-screen">
-        <h1>Bonswar</h1>
+        <h1>Les races</h1>
       </div>
     </Layout>
   )
 }
+
+export default Breeds
